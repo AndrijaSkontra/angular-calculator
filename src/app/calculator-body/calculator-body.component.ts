@@ -9,4 +9,10 @@ import { Component } from '@angular/core';
 })
 export class CalculatorBodyComponent {
 
+  displayNumber: number;
+
+  constructor() {
+    this.displayNumber = 0;
+  }
+
 }
